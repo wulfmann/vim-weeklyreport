@@ -44,5 +44,7 @@ Default Template | highLow.txt | `g:wr_defaultTemplate` | Default template to lo
 
 # TODO
 * Allow configuring of the actual command.
+* Make filename more configurable.
+* Make cursor positioning more flexible with a variable in the template
 
 [strftime]: http://vimdoc.sourceforge.net/htmldoc/eval.html#strftime()
