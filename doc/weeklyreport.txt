@@ -1,0 +1,11 @@
+Author: Joseph Snell
+License: MIT
+
+Create a weekly report file from a template.
+
+*Wr*
+Wr Create a file with the current date in ~/weeklyreports and begin editing it
+
+Settings
+
+Filename
