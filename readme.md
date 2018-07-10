@@ -6,3 +6,4 @@ Title | Default | Variable
 --- | --- | ---
 Filename | yyyy-mm-dd.txt | g:wr_filename
 Location | ~/weeklyreports | g:wr_location
+Default Template | highLow.txt | g:wr_defaultTemplate
