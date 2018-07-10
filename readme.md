@@ -43,5 +43,6 @@ Default Template | highLow.txt | `g:wr_defaultTemplate` | Default template to lo
 
 # TODO
 * Allow configuring of the actual command.
+* Make filename settings more flexible.
 
 [strftime]: http://vimdoc.sourceforge.net/htmldoc/eval.html#strftime()
