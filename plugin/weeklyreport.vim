@@ -1,2 +1,2 @@
 ""
-command! -nargs=0 Wr call weeklyreport#Execute()
+command! -nargs=* Wr call weeklyreport#Execute(<f-args>)
