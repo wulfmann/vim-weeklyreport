@@ -11,6 +11,9 @@ function! weeklyreport#Execute(...)
 	let g:wr_filenameSuffix = get(g:, 'wr_filenameSuffix', "%F") 
 	let g:wr_filenameExt = get(g:, 'wr_filenameExt', "txt") 
 
+	" Cursor Position
+	let g:wr_cursorPosition = get(g:, "wr_cursorPosition", [1, 8])
+
 	" Create folder if not exists
 	" if !isdirectory(g:wr_location)
 		" call mkdir(g:wr_location)
@@ -21,6 +24,7 @@ function! weeklyreport#Execute(...)
 
 	execute "edit" . filePath
 	execute "0r" . template
-    call cursor(1, 8)
+
+    call cursor(g:wr_cursorPosition[0], g:wr_cursorPosition[1])
 	call feedkeys('a')
 endfunction

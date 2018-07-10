@@ -23,6 +23,7 @@ let g:wr_location = "~/myCustomDirectory"
 Title | Default | Variable | Description
 --- | --- | --- | ---
 Location | ~/weeklyreports | `g:wr_location` | The directory that holds the report files.
+Cursor Position | `[1, 8]` | `g:wr_cursorPosition` | A list with the row and column number to place the cursor when a new report is opened.
 
 ## Filename Settings
 The file name is configurable with the following variables.
@@ -36,13 +37,12 @@ File Extension | txt | `g:wr_filenameExt` | File extension
 ## Template
 There are a few settings that can be configured for the templates.
 
-Title | Default | Variable
---- | --- | ---
+Title | Default | Variable | Description
+--- | --- | --- | ---
 Template Directory | {Plugin Install Dir}/templates | `g:wr_templateDirectory` | Directory to look for templates in.
 Default Template | highLow.txt | `g:wr_defaultTemplate` | Default template to load for new reports without an argument. 
 
 # TODO
 * Allow configuring of the actual command.
-* Make filename settings more flexible.
 
 [strftime]: http://vimdoc.sourceforge.net/htmldoc/eval.html#strftime()
